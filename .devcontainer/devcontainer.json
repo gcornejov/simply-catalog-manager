@@ -1,0 +1,21 @@
+{
+    //"image": "mcr.microsoft.com/vscode/devcontainers/python:3.10-bullseye",
+    "build": {
+        "dockerfile": "base.Dockerfile",
+        "args": {
+            "IMG": "mcr.microsoft.com/vscode/devcontainers/python:3.10-bullseye"
+        }
+    },
+    "forwardPorts": [8080],
+    "customizations": {
+        // Configure properties specific to VS Code.
+        "vscode": {
+            // Add the IDs of extensions you want installed when the container is created.
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "ms-python.python",
+                "clemenspeters.format-json"
+            ]
+        }
+    }
+}
