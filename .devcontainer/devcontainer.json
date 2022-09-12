@@ -6,6 +6,7 @@
             "IMG": "mcr.microsoft.com/vscode/devcontainers/python:3.10-bullseye"
         }
     },
+    "postCreateCommand": "bash ./.devcontainer/poetry-setup.sh",
     "forwardPorts": [8080],
     "customizations": {
         // Configure properties specific to VS Code.
@@ -20,5 +21,12 @@
                 "donjayamanne.python-environment-manager"
             ]
         }
+    },
+    "settings": {
+        "editor.tabSize": 4,
+        "files.autoSave": "afterDelay",
+        "python.terminal.activateEnvironment": true,
+        "python.terminal.activateEnvInCurrentTerminal": true,
+        "python.defaultInterpreterPath": "${VIRTUAL_ENV}/bin/python"
     }
 }
