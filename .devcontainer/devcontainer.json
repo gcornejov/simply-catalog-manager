@@ -7,7 +7,7 @@
         }
     },
     "postCreateCommand": "bash ./.devcontainer/poetry-setup.sh",
-    "forwardPorts": [8080],
+    "forwardPorts": [5000],
     "customizations": {
         // Configure properties specific to VS Code.
         "vscode": {
