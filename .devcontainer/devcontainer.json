@@ -6,7 +6,8 @@
             "IMG": "mcr.microsoft.com/vscode/devcontainers/python:3.10-bullseye"
         }
     },
-    "postCreateCommand": "bash ./.devcontainer/poetry-setup.sh",
+    //"postCreateCommand": "bash ./.devcontainer/poetry-setup.sh",
+    "postCreateCommand": "poetry config virtualenvs.in-project true && poetry config virtualenvs.prompt \".venv\" && poetry install",
     "forwardPorts": [5000],
     "customizations": {
         // Configure properties specific to VS Code.
