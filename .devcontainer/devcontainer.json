@@ -7,7 +7,7 @@
         }
     },
     //"postCreateCommand": "bash ./.devcontainer/poetry-setup.sh",
-    "postCreateCommand": "poetry config virtualenvs.in-project true && poetry config virtualenvs.prompt \".venv\" && poetry install",
+    "postCreateCommand": "poetry config virtualenvs.in-project true && poetry config virtualenvs.prompt \".venv\" && poetry install && poetry run pre-commit install",
     "forwardPorts": [5000],
     "customizations": {
         // Configure properties specific to VS Code.
