@@ -168,7 +168,7 @@ testing-integration = ["build[virtualenv]", "filelock (>=3.4.0)", "jaraco.envs (
 name = "toml"
 version = "0.10.2"
 description = "Python Library for Tom's Obvious, Minimal Language"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 
@@ -206,7 +206,7 @@ watchdog = ["watchdog"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "25dac2338c82b8183279fbf4cd7e0d6a4e69d46f0ef26621fe90db138a5f45a5"
+content-hash = "eed3b9f57e630f3f9375823f239bd7e120f948ec9924379bf4948420a5a24f69"
 
 [metadata.files]
 cfgv = [
