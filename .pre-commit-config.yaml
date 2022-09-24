@@ -29,3 +29,8 @@ repos:
       rev: 0.2.2
       hooks:
           - id: yamlfmt
+
+    - repo: https://github.com/thibaudcolas/curlylint
+      rev: v0.13.1
+      hooks:
+          - id: curlylint
