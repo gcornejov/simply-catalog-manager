@@ -7,3 +7,13 @@ Task needed:
 - Read category structure from file/database/memory.
 - Use templates to build category page and product page.
 - CRUD pages for managing products and category
+
+## Category builder
+
+Read categories from CSV/Json File. Each category must contian:
+
+- Identifier (Alphanumeric)
+- Name
+- Description
+- Image src
+- Url path
