@@ -19,7 +19,8 @@
                 "clemenspeters.format-json",
                 "eamodio.gitlens",
                 "bungcip.better-toml",
-                "donjayamanne.python-environment-manager"
+                "donjayamanne.python-environment-manager",
+                "ecmel.vscode-html-css"
             ]
         }
     },
