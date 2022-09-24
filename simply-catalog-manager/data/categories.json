@@ -1,0 +1,32 @@
+{
+    "categories": [
+        {
+            "id": "CT-01",
+            "name": "Mouse",
+            "description": "Mouses for Laptop and Desktop computers",
+            "src_img": "../resources/images/categories/mouse.png",
+            "url_path": "mouses"
+        },
+        {
+            "id": "CT-02",
+            "name": "Keyboard",
+            "description": "Keybords for Laptop and Desktop computers",
+            "src_img": "../resources/images/categories/keyboard.png",
+            "url_path": "keyboards"
+        },
+        {
+            "id": "CT-03",
+            "name": "Headphones",
+            "description": "Headphones for Laptop and Desktop computers",
+            "src_img": "../resources/images/categories/headphone.png",
+            "url_path": "headphones"
+        },
+        {
+            "id": "CT-04",
+            "name": "Speakers",
+            "description": "Speakers for Laptop and Desktop computers",
+            "src_img": "../resources/images/categories/speaker.png",
+            "url_path": "speakers"
+        }
+    ]
+}
