@@ -2,7 +2,7 @@ import os
 
 from flask import Flask, render_template
 
-from .src import category_builder
+from simply_catalog_manager.src import category_builder
 
 app = Flask(__name__)
 
@@ -22,8 +22,6 @@ def hello_world():
 
 @app.route("/products")
 def load_categories():
-    print(os.getcwd())
-    print(os.listdir())
     categories = category_builder.read_categories(
         "simply_catalog_manager/data/categories.json"
     )
