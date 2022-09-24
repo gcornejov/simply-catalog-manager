@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "simply-catalog-manager"
+name = "simply_catalog_manager"
 version = "0.1.0"
 description = ""
 authors = ["Gustavo Cornejo <g.cornejovivado@gmail.com>"]

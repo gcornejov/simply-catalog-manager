@@ -25,7 +25,7 @@ def load_categories():
     print(os.getcwd())
     print(os.listdir())
     categories = category_builder.read_categories(
-        "simply-catalog-manager/data/categories.json"
+        "simply_catalog_manager/data/categories.json"
     )
 
     return render_template("categories.html", categories=categories)
