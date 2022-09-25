@@ -5,4 +5,32 @@
 {% block content %}
 <p>{{ categories }}</p>
 
+<div class="container-lg">
+    <div class="row">
+        <h1>Our Products</h1>
+    </div>
+    <div class="row">
+        <div class="col-6">Some Text</div>
+        <div class="col-6">Some Other Text</div>
+    </div>
+
+    <div class="row">
+    {% for c in categories %}
+        <div class="col-{{ 12 // org }}">
+            <img src="{{ c['src_img'] }}">
+            <h3>{{ c["name"] }}</h3>
+            <p>{{ loop.index }}</p>
+        </div>
+
+        {% if loop.index % org == 0 %}
+            </div>
+
+            {% if not loop.last %}
+                <div class="row">
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+
+</div>
+
 {% endblock %}

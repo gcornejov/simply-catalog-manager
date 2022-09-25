@@ -26,7 +26,9 @@ def load_categories():
         "simply_catalog_manager/data/categories.json"
     )
 
-    return render_template("categories.html", categories=categories)
+    return render_template(
+        "categories.html", categories=categories["categories"], org=2
+    )
 
 
 if __name__ == "__main__":
