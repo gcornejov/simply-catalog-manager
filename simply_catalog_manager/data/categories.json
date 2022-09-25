@@ -4,28 +4,28 @@
             "id": "CT-01",
             "name": "Mouse",
             "description": "Mouses for Laptop and Desktop computers",
-            "src_img": "../resources/images/categories/mouse.png",
+            "src_img": "https://via.placeholder.com/150",
             "url_path": "mouses"
         },
         {
             "id": "CT-02",
             "name": "Keyboard",
             "description": "Keybords for Laptop and Desktop computers",
-            "src_img": "../resources/images/categories/keyboard.png",
+            "src_img": "https://via.placeholder.com/150",
             "url_path": "keyboards"
         },
         {
             "id": "CT-03",
             "name": "Headphones",
             "description": "Headphones for Laptop and Desktop computers",
-            "src_img": "../resources/images/categories/headphone.png",
+            "src_img": "https://via.placeholder.com/150",
             "url_path": "headphones"
         },
         {
             "id": "CT-04",
             "name": "Speakers",
             "description": "Speakers for Laptop and Desktop computers",
-            "src_img": "../resources/images/categories/speaker.png",
+            "src_img": "https://via.placeholder.com/150",
             "url_path": "speakers"
         }
     ]
